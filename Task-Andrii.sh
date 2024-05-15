@@ -12,6 +12,6 @@ CURRENT_TIME=$(date +"%H:%M:%S")
 
 echo $CURRENT_TIME >> "$FILE"
 
-sleep 5
+sleep 5  
 
 done
