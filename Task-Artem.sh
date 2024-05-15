@@ -7,7 +7,8 @@ mkdir -p "$DIR"
 for i in {1..10}
 do
  DATE=`date '+%T'`
- echo "$DATE" > "$DIR/File-$i-$DATE.txt"
+ echo "$DATE" >> "$DIR/MyTest.txt"
  sleep 5
- cat "$DIR/File-$i-$DATE.txt"
 done
+cat "$DIR/MyTest.txt"
+
